@@ -17,16 +17,16 @@
 Do you want to contact us?
 <a href="">Contact</a> 
 </h1>
-<form action=""  method="post">
+<form action="{% url 'djangoapp:registration' %}"  method="post">
     {% csrf_token %}
     <div class="container">
-      <h1>Login</h1>
-      <label for="username"><b>User Name</b></label>
-      <input type="text" placeholder="Enter User Name: " name="username" required>
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password: " name="psw" required>
+      <h1>Login</h1><br><br>
+      <label for="username"><b>User Name</b></label><br>
+      <input type="text" placeholder="Enter User Name: " name="username" required><br><br>
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password: " name="psw" required><br><br>
       <div>
-        <button class="button" type="submit">Login</button>
+        <button class="button" type="submit">Login</button><br><br>
       </div>
     </div>
   </form>
