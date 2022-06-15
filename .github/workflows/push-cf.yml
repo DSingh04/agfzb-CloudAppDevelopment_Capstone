@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 # Environment variables available to all jobs and steps in this workflow
 env:
-  IBM_CLOUD_REGION: us-south
+  IBM_CLOUD_REGION: US South
   IBM_CLOUD_GROUP: Default
   IBM_CLOUD_SPACE: my_space2
   IBM_CLOUD_ORG: dushant.singh135@gmail.com 
